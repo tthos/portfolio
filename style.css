@@ -147,6 +147,13 @@ header,footer {
     grid-column: 3/5;
 }
 
+/* media queries */
+@media only screen and ( max-width : 800px) {
+   body {
+       background: #424949;
+   }
+}
+
 
 /* header */
 .fa{
@@ -167,3 +174,4 @@ header,footer {
 .fa-instagram {
     color: white;
 }
+
