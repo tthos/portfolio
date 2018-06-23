@@ -1,4 +1,4 @@
-/* common */
+/* css reset */
 * {
     margin : 0px;
     padding : 0px;
@@ -24,6 +24,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     background:#4DAF7C;
 }
+
+/* common  */
 
 .list-unstyled {
     list-style-type: none;
@@ -59,7 +61,7 @@ header,section,footer{
     text-align: center;
 }
 
-.line {
+.bottom-line {
 
     border-bottom: 1px solid #B3B6B7;
 }
@@ -82,8 +84,6 @@ input::placeholder{
     padding: 10px 10px;
     font-size: 14px;
     border: none;
-
-
 }
 
 
@@ -158,9 +158,13 @@ header,footer {
 /* header */
 .fa{
     padding: 10px;
-    width: 45px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
+    font-size: 20px !important
+}
+.fa:hover {
+    opacity: 0.7;
 }
 
 .fa-facebook {
